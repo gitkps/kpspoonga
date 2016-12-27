@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Homeopathy Articles</string>
+    <string name="app_name">Poonga</string>
+    <string name="app_Title">Homeopathy Books</string>
+
 </resources>

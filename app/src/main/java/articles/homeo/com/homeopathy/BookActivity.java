@@ -15,7 +15,7 @@ public class BookActivity extends TabGroupActivity{
     @Override
     public void onBackPressed() {
     	AlertDialog.Builder alertDlg = new AlertDialog.Builder(this);
-		alertDlg.setMessage("Are you sure you want to exit?");
+		alertDlg.setMessage("Do you really want to exit?");
 		alertDlg.setCancelable(false);
 		alertDlg.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 			public void onClick(DialogInterface dialog, int id) {	 	
